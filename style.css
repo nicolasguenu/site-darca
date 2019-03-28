@@ -56,6 +56,11 @@ transition: background-color 200ms linear;
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
 color: white;
 }
+
+#nav-hov:hover{
+color: #82ccdd;
+}
+
 .navbar-brand{
 margin-bottom: 1%;
 }
@@ -65,7 +70,7 @@ color: white;
 }
 
 .navbar-light .navbar-brand:hover{
-color: white;
+color: #82ccdd;
 }
 
 .nav-container{
@@ -83,18 +88,31 @@ font-size: 1rem;
 }
 
 .navbar-light .navbar-toggler {
-border-color: white;
+border-color: #82ccdd;
+background-color: #82ccdd;
 }
 
 #navbarDropdownMenuLink {
 color: white;
 }
 
-.dropdown-item:hover {
-color: black;
-text-decoration: none;
-background-color: var(--m-white);}
+#navbarDropdownMenuLink:hover {
+color: #82ccdd;
+}
 
+.dropdown-menu.show{
+border-radius: 1px;
+background:rgba(30, 30, 30, 1);
+}
+
+.dropdown-item{
+color: white;
+}
+
+.dropdown-item:hover {
+color: rgba(30, 30, 30,1.0);
+text-decoration: none;
+background-color: #82ccdd;}
 
 .carousel-item {
 height: 75vh;
@@ -111,32 +129,44 @@ text-shadow: 2px 2px 8px black;
 
 .display-4{
 text-transform: uppercase;
-font-size: 50px;
+font-size: 4rem;
 }
 
 
-#mercadev {
+#company {
 font-family: Ailerons;
-font-size: 90px;
+font-size: 6rem;
 font-weight: bold;
-letter-spacing: 10px;
 }
 
 .lead{ 
-font-size: 20px;
+font-size: 1.5rem;
 color: #82ccdd;
 }
 
 .carousel-caption {
 position: absolute;
-/*    right: 15%;*/
-bottom: 30%;
+bottom: 25%;
 left: 15%;
 z-index: 10;
 padding-top: 20px;
 padding-bottom: 20px;
 color: #fff;
 text-align: center;
+max-width: 95%;
+}
+
+@media screen and (max-width: 768px) {
+ #company{
+ 	font-size: 2rem;
+ }
+
+.lead{
+ 	font-size: 1rem;
+ }
+.display-4{
+	font-size: 1.5rem;
+}
 }
 
 #item-3 {
@@ -176,8 +206,7 @@ justify-content: center;
 }
 
 .about p{
-text-align: center;
-margin-bottom: 20px;
+margin-bottom: 0.8rem;
 text-align: center;
 }
 
@@ -279,6 +308,13 @@ font-size: 14px;
  }
 }
 
+.container-partners{
+margin: auto;
+max-width: 80%;
+margin-top:40px;
+margin-bottom: 40px;
+}
+
 #legal-text{
 margin-top: 2%;
 margin-bottom: 2%;
@@ -328,4 +364,18 @@ padding: 8px 40px;
 .btn-footer-bar a:hover{
 color:rgba(30, 30, 30,1.0);
 background: #82ccdd;
+}
+
+#footer-company{
+font-family: Ailerons;
+font-size: 1.5rem;
+}
+
+hr{
+background: #3c6382;
+border-width: 2px;
+}
+
+footer i{
+color: #3c6382;	
 }
