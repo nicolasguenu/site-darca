@@ -1,10 +1,7 @@
 :root {
---m-white:#f8f8f8;
---m-light-yellow: #faf5e2;
---m-light-green: #14b095;
---m-dark-green: #055046;
---m-light-blue: #4d6d7c;
---m-dark-blue: #003352;
+--m-white:rgba(240, 240, 240, 1);
+--m-light-blue: #82ccdd;
+--m-dark-blue: #3c6382;
 }
 
 @font-face {
@@ -33,7 +30,7 @@ color: black;
 }
 
 a:hover, a:focus{
-color: #3c6382;
+color: var(--m-dark-blue);
 }
 
 h5{
@@ -42,7 +39,7 @@ h5{
 }
 
 footer{
-background: rgba(240, 240, 240, 1);
+background: var(--m-white);
 }
 
 .navbar-brand{
@@ -58,7 +55,7 @@ color: white;
 }
 
 #nav-hov:hover{
-color: #82ccdd;
+color: var(--m-light-blue);
 }
 
 .navbar-brand{
@@ -70,11 +67,11 @@ color: white;
 }
 
 .navbar-light .navbar-brand:hover{
-color: #82ccdd;
+color: var(--m-light-blue);
 }
 
 .nav-container{
-border-bottom:  2px solid #82ccdd;
+border-bottom:  2px solid var(--m-light-blue);
 display: flex;
 align-content: space-between;
 width: 100%;
@@ -88,8 +85,8 @@ font-size: 1rem;
 }
 
 .navbar-light .navbar-toggler {
-border-color: #82ccdd;
-background-color: #82ccdd;
+border-color: var(--m-light-blue);
+background-color: var(--m-light-blue);
 }
 
 #navbarDropdownMenuLink {
@@ -97,7 +94,7 @@ color: white;
 }
 
 #navbarDropdownMenuLink:hover {
-color: #82ccdd;
+color: var(--m-light-blue);
 }
 
 .dropdown-menu.show{
@@ -112,7 +109,7 @@ color: white;
 .dropdown-item:hover {
 color: rgba(30, 30, 30,1.0);
 text-decoration: none;
-background-color: #82ccdd;}
+background-color: var(--m-light-blue);}
 
 .carousel-item {
 height: 75vh;
@@ -141,7 +138,7 @@ font-weight: bold;
 
 .lead{ 
 font-size: 1.5rem;
-color: #82ccdd;
+color: var(--m-light-blue);
 }
 
 .carousel-caption {
@@ -179,7 +176,7 @@ margin-bottom:0;
 
 .about-section{
 width: 100%;
-background: rgba(240, 240, 240, 1);
+background: var(--m-white);
 padding: 40px 0;
 }
 
@@ -192,7 +189,7 @@ font-size: 30px;
 .border-about{
 width: 160px;
 height: 3px;
-background: #3c6382;
+background: var(--m-dark-blue);
 margin: 40px auto;
 }
 
@@ -212,16 +209,16 @@ text-align: center;
 
 .about a{
 display: inline-block;
-color: #3c6382;
+color: var(--m-dark-blue);
 text-decoration: none;
-border: 2px solid #3c6382;
+border: 2px solid var(--m-dark-blue);
 border-radius: 24px;
 padding: 8px 40px;
 }
 
 .about a:hover{
 color: white;
-background: #3c6382;
+background: var(--m-dark-blue);
 }
 
 .services-section{
@@ -257,7 +254,7 @@ font-size: 25px;
 .border-services{
 width: 160px;
 height: 3px;
-background:#82ccdd;
+background:var(--m-light-blue);
 margin: 40px auto;
 }
 
@@ -287,7 +284,7 @@ color: white;
 	display: inline-block;
 	width: 70px;
 	height: 70px;
-	border: 3px solid #82ccdd;
+	border: 3px solid var(--m-light-blue);
 	transform: rotate(45deg);
 	margin-bottom: 30px;
 	margin-top: 16px;
@@ -297,11 +294,11 @@ color: white;
 	line-height: 70px;
 	transform: rotate(-45deg);
 	font-size: 26px;
-	color: #82ccdd;
+	color: var(--m-light-blue);
 }
 
 .service-box:hover, .service-box:focus, .service-box:active{
-border: 2px solid #82ccdd;
+border: 2px solid var(--m-light-blue);
 border-radius: 2px;
 text-decoration: none;
 color: white;
@@ -403,11 +400,11 @@ color:white;
 }
 
 #img1{
-border-right: 6px solid #82ccdd;
+border-right: 6px solid var(--m-light-blue);
 }
 
 #img2{
-border-left: 6px solid #82ccdd;
+border-left: 6px solid var(--m-light-blue);
 }
 
 .bg-footer{
@@ -429,16 +426,16 @@ font-size: 15px;
 .btn-footer-bar a{
 margin-top: 15px;
 display: inline-block;
-color: #82ccdd;
+color: var(--m-light-blue);
 text-decoration: none;
-border: 2px solid #82ccdd;
+border: 2px solid var(--m-light-blue);
 border-radius: 24px;
 padding: 8px 40px;
 }
 
 .btn-footer-bar a:hover{
 color:rgba(30, 30, 30,1.0);
-background: #82ccdd;
+background: var(--m-light-blue);
 }
 
 #footer-company{
@@ -447,10 +444,10 @@ font-size: 1.5rem;
 }
 
 hr{
-background: #3c6382;
+background: var(--m-dark-blue);
 border-width: 2px;
 }
 
 footer i{
-color: #3c6382;	
+color: var(--m-dark-blue);	
 }
