@@ -292,14 +292,35 @@ text-align: center;
 color: white;
 }
 
-.contact-box a{
+.contact-box-a{
+width: 20rem;
+max-width: 20%;
+padding: 10px;
+margin: auto;
+text-align: center;
+color: white;
+}
+
+.contact-box-a a{
 color: white;
 text-decoration: none;
 }
 
-.contact-box:hover{
+#contact-a:hover{
 border: 2px solid var(--m-light-blue);
 border-radius: 2px;
+text-decoration: none;
+color: white;
+}
+
+#contact-a:focus{
+border: 2px solid var(--m-light-blue);
+border-radius: 2px;
+text-decoration: none;
+color: white;
+}
+
+#contact-a:active{
 text-decoration: none;
 color: white;
 }
@@ -348,7 +369,6 @@ font-size: 14px;
  .contact-box{
  	max-width: 95%;
  }
-
 }
 
 .container-partners{
