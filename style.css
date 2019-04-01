@@ -111,6 +111,16 @@ color: rgba(30, 30, 30,1.0);
 text-decoration: none;
 background-color: var(--m-light-blue);}
 
+#navbarResponsive{
+color:white;
+}
+
+@media screen and (max-width: 1440px) {
+ .nav-container{
+ 	 flex-direction: column;
+ }
+}
+
 .carousel-item {
 height: 75vh;
 min-height: 350px;
