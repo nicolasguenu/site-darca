@@ -259,6 +259,10 @@ font-size: 20px;
 font-size: 25px;
 }
 
+.contact-title a{
+color: white;
+}
+
 .border-services{
 width: 160px;
 height: 3px;
@@ -288,6 +292,18 @@ text-align: center;
 color: white;
 }
 
+.contact-box a{
+color: white;
+text-decoration: none;
+}
+
+.contact-box:hover{
+border: 2px solid var(--m-light-blue);
+border-radius: 2px;
+text-decoration: none;
+color: white;
+}
+
 .service-icon{
 	display: inline-block;
 	width: 70px;
@@ -311,9 +327,6 @@ border-radius: 2px;
 text-decoration: none;
 color: white;
 }
-
-.contact-box:hover{
-border: none;}
 
 .service-desc{
 font-size: 14px;
