@@ -272,7 +272,7 @@ padding: 0;
 color: #212529;
 }
 
-#m-text a:hover, a:focus{
+#m-text a:hover {
 color: var(--m-dark-blue);
 background: transparent;
 margin: 0;
@@ -471,7 +471,7 @@ color:white;
 color:white;
 }
 
-.text-agency a:hover, a:focus{
+.text-agency a:hover{
 color: var(--m-dark-blue);
 text-decoration: none;
 }
@@ -507,6 +507,15 @@ text-transform: uppercase;
 
 .card-text{
 color: white;
+}
+
+.card-text a{
+color:white;
+}
+
+.card-text a:hover{
+color: var(--m-dark-blue);
+text-decoration: none;
 }
 
 .card-img-top{
