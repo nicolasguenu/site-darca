@@ -335,6 +335,11 @@ color: white;
 text-decoration: none;
 }
 
+#contact-a{
+border: 2px solid transparent;
+border-radius: 2px;
+}
+
 #contact-a:hover{
 border: 2px solid var(--m-light-blue);
 border-radius: 2px;
