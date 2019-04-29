@@ -197,6 +197,11 @@ text-align: center;
 text-transform: uppercase;
 font-size: 30px;
 }
+#container-article h1{
+text-transform: uppercase;
+font-size: 30px;
+}
+
 
 .about-privacy{
 margin-top: 40px;
@@ -493,11 +498,14 @@ border-left: 6px solid var(--m-light-blue);
 }
 
 .container-realisation{
-max-width: 90%;
-width: 90%;
 margin-right: auto;
 margin-left: auto;
 margin-top: 40px;
+}
+
+#container-article{
+margin-top: 40px;
+margin-bottom: 40px;
 }
 
 .card{
@@ -551,6 +559,28 @@ font-size: 15px;
 margin-top: 15px;
 display: inline-block;
 color: var(--m-light-blue);
+text-decoration: none;
+border: 2px solid var(--m-light-blue);
+border-radius: 24px;
+padding: 8px 40px;
+}
+
+.btn-article a{
+margin-top: 15px;
+display: inline-block;
+background-color: rgb(30, 30, 30);
+color: var(--m-light-blue);
+text-decoration: none;
+border: 2px solid var(--m-light-blue);
+border-radius: 24px;
+padding: 8px 40px;
+}
+
+.btn-article a:hover{
+margin-top: 15px;
+display: inline-block;
+background-color: var(--m-light-blue);
+color: rgb(30,30,30);
 text-decoration: none;
 border: 2px solid var(--m-light-blue);
 border-radius: 24px;
